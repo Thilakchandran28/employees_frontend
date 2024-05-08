@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 import HeaderComponent from '../components/header-component';
+import FooterComponent from '../components/footer';
 
 
 
 const EnterData = () => {
 
-   
+
 
 
     const [uploadedData, updateUploadedData] = useState({
@@ -41,7 +42,7 @@ const EnterData = () => {
 
     const uploadDetail = () => {
         console.log(uploadedData);
-        
+
         // ----------------error------------------
 
         updateUploadedError({
@@ -54,9 +55,8 @@ const EnterData = () => {
 
         if (uploadedData.name === "" ||
             uploadedData.designation === "" ||
-            uploadedData.email === "" 
-        ) 
-        {
+            uploadedData.email === ""
+        ) {
             // Do not submit the form if any field is empty
             return;
         }
@@ -161,7 +161,7 @@ const EnterData = () => {
             </main>
             {/* <!-- End #main --> */}
 
-
+            <FooterComponent></FooterComponent>
 
         </div>
 

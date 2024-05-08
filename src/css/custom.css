@@ -351,3 +351,11 @@
   color: white;
   padding-left: 50px;
 }
+
+.bgclr{
+  background-color: rgb(122 198 221);
+}
+
+h4{
+  display: inline;
+}

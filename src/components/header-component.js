@@ -13,7 +13,7 @@ const HeaderComponent = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: "#EE633A", marginRight: '3%' }} />
         <Navbar.Collapse id="basic-navbar-nav">
-            <h1 className='whtt'> TK Employees Analysis</h1>
+            <h2 className='whtt'> TK Employees Analysis</h2>
           <Nav className="ml-auto" style={{paddingLeft: "250px"}} >
             <NavLink to="/" style={{ textDecoration: "none" }}>Home</NavLink>
             <NavLink to="/enter" style={{ textDecoration: "none" }}>EnterData</NavLink>

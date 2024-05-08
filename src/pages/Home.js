@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderComponent from '../components/header-component';
+import FooterComponent from '../components/footer';
 
 const HomePage = () => {
     return (
@@ -41,6 +42,7 @@ const HomePage = () => {
 
                     </div>
                 </section>
+                <FooterComponent></FooterComponent>
         </div>
     );
 };
